@@ -1,6 +1,5 @@
 
 export function enAtbash(message) {    
-    console.log(message)
 
     const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     const tebahpla = "ZYXWVUTSRQPONMLKJIHGFEDCBA";
