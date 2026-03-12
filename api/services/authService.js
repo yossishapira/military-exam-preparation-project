@@ -21,7 +21,9 @@ export async function login(agentCode, password) {
     throw err;
   }
   return {
-    user: { id: user._id, agentCode: user.agentCode, role: user.role },
+    user: { id: user._id, agentCode: user.agentCode, role: user.role, fullName:user.fullName},
     token: signToken(user),
   };
 }
+
+
